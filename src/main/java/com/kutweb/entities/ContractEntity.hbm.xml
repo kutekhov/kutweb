@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.kutweb.entities.ContractEntity" table="contract" schema="e_telecom">
+        <id name="idContract" column="id_contract"/>
+        <property name="nomberContract" column="nomber_contract"/>
+        <property name="tarif" column="tarif"/>
+        <property name="selectedListOptions" column="selected_list_options"/>
+    </class>
+</hibernate-mapping>

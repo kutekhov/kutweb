@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.kutweb.entities.ClientEntity" table="client" schema="e_telecom">
+        <id name="idClient" column="id_client"/>
+        <property name="nameClien" column="name_clien"/>
+        <property name="familyNameClient" column="family_name_client"/>
+        <property name="dateBirth" column="date_birth"/>
+        <property name="passpor" column="passpor"/>
+        <property name="address" column="address"/>
+        <property name="numberContract" column="number_contract"/>
+        <property name="emailClient" column="email_client"/>
+        <property name="passwordClient" column="password_client"/>
+    </class>
+</hibernate-mapping>

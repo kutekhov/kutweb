@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.kutweb.entities.TarifEntity" table="tarif" schema="e_telecom">
+        <id name="idTarif" column="id_tarif"/>
+        <property name="nameTarif" column="name_tarif"/>
+        <property name="priceTarif" column="price_tarif"/>
+        <property name="listOptions" column="list_options"/>
+    </class>
+</hibernate-mapping>
